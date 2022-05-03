@@ -4,7 +4,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](#contributing)
+- [Contribution](#contribution)
 - [Tests](#tests)
 - [Questions](#questions)
 ## Description

@@ -21,7 +21,7 @@ function generateMarkdown(email, user, title) {
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](#contributing)
+- [Contribution](#contribution)
 - [Tests](#tests)
 - [Questions](#questions)
   ## Description
@@ -32,7 +32,7 @@ function generateMarkdown(email, user, title) {
   ${data.usage}
   ## License
   [![License: ${data.license}](https://img.shields.io/github/license/Github-${data.github}/${data.repo})](https://github.com/${github}/${repo})
-  ## Contribution)
+  ## Contribution
   ${data.contribution}
   ## Tests
   ${data.tests}
