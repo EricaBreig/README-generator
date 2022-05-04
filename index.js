@@ -70,7 +70,11 @@ async function init() {
   try {
     const data = await promptUser();
     const generateContent = generateMarkdown(data);
-    await writeFileAsync("./src/README.md", generateContent);
+    await fs.writeFile("./utils/README.md", generateContent, function(err){
+        if (err) {
+        console.log(err)
+    }
+    });
     console.log("README Generated!");
   } catch (err) {
     console.log(err);

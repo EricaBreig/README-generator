@@ -1,4 +1,4 @@
- # This is a title
+# 
   ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -7,19 +7,19 @@
 - [Contribution](#contribution)
 - [Tests](#tests)
 - [Questions](#questions)
-## Description
-This is the description
+  ## Description
+  
   ## Installation
-To install this page, click on the deployed page
+  
   ## Usage
-To use this, click on the deployed page
+  
   ## License
-[![License: Erica ](https://img.shields.io/github/license/EricaBreig/my-portfolio)](https://github.com/EricaBreig/my-portfolio)
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   ## Contribution
-Me, myself and I
+  
   ## Tests
-This application currently has no test functions
+  
   ## Questions
-  For questions, please contact me via email at ericabreig@gmail.com
-  <br/>
-  Follow me on GitHub: [${data.user}](https://github.com/${data.user})
+  For questions, please contact me via email at 
+  Follow me on GitHub: 
+
