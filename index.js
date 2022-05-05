@@ -41,7 +41,15 @@ const promptUser = () => {
       type: "list",
       name: "license",
       message: "How do you want to license this project?",
-      choices: ["Apache", "Eclipse", "GNU", "The Artistic License", "MIT", "Mozilla", "Open Database License"],
+      choices: [
+        "Apache",
+        "Eclipse",
+        "GNU",
+        "The Artistic License",
+        "MIT",
+        "Mozilla",
+        "Open Database License",
+      ],
     },
     {
       type: "input",
@@ -64,10 +72,10 @@ async function init() {
   try {
     const data = await promptUser();
     const generateContent = generateMarkdown(data);
-    await fs.writeFile("./utils/README.md", generateContent, function(err){
-        if (err) {
-        console.log(err)
-    }
+    await fs.writeFile("./utils/README.md", generateContent, function (err) {
+      if (err) {
+        console.log(err);
+      }
     });
     console.log("README Generated!");
   } catch (err) {

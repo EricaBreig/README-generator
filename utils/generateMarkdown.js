@@ -4,32 +4,30 @@ function renderLicenseBadge(license) {
   let licenseString = "";
   switch (license) {
     case "Apache":
-      licenseString =
-      `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
+      licenseString = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
       return licenseString;
-case "Eclipse":
-  licenseString = `[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)`
-  return licenseString;
-case "GNU":
-  licenseString =`[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
-  return licenseString;
-  case "The Artistic License":
-    licenseString = `[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)`;
-    return licenseString;
+    case "Eclipse":
+      licenseString = `[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)`;
+      return licenseString;
+    case "GNU":
+      licenseString = `[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
+      return licenseString;
+    case "The Artistic License":
+      licenseString = `[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)`;
+      return licenseString;
     case "MIT":
       licenseString = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
       return licenseString;
-      case "Mozilla":
-        licenseString = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
-        return licenseString;
-        case "Open Database License":
-          licenseString =`[![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/)`;
-          return licenseString;
+    case "Mozilla":
+      licenseString = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
+      return licenseString;
+    case "Open Database License":
+      licenseString = `[![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/)`;
+      return licenseString;
     default:
       return licenseString;
   }
 }
-
 
 // Function that returns the license section of README
 // If there is no license, return an empty string
@@ -50,7 +48,7 @@ function renderLicenseSection(license, github) {
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.`;
-   return licenseSection
+      return licenseSection;
     case "Eclipse":
       licenseSection = `Eclipse Public License - v 2.0`;
       return licenseSection;
