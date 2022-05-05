@@ -125,6 +125,7 @@ function generateMarkdown({
   ${usage}
   ## License
   ${licenseBadge}
+  <br/>
   ${licenseText}
   ## Contribution
   ${contribution}
