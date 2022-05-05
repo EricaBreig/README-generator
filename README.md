@@ -10,7 +10,8 @@
 
 ## Links
 
-[Application video](https://drive.google.com/drive/folders/1mxcdHzG3yiLBd9thA1PziNMIIs7hLf0w?usp=sharing)
+The following link shows an example of the application's deployment and expected results: <br/>
+[Deployed Application video](https://drive.google.com/drive/folders/1mxcdHzG3yiLBd9thA1PziNMIIs7hLf0w?usp=sharing)
 
 ## Description
 
