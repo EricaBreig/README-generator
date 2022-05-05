@@ -1,16 +1,11 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
-// TODO: Create an array of questions for user input
+// An array of questions for user input
 const promptUser = () => {
   return inquirer.prompt([
-    {
-      type: "input",
-      name: "repo",
-      message: "Please enter the name of your Repository",
-    },
     {
       type: "input",
       name: "email",
@@ -46,7 +41,7 @@ const promptUser = () => {
       type: "list",
       name: "license",
       message: "How do you want to license this project?",
-      choices: ["Apache", "Eclipse", "GNU", "ISC", "MIT", "Mozilla", "Open"],
+      choices: ["Apache", "Eclipse", "GNU", "The Artistic License", "MIT", "Mozilla", "Open Database License"],
     },
     {
       type: "input",
@@ -61,11 +56,10 @@ const promptUser = () => {
   ]);
 };
 
-// TODO: Create a function to write README file
+//Function to write README file
 function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
-// function init() {}
+//Function to initialize app
 async function init() {
   try {
     const data = await promptUser();
